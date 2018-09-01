@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <Reference Include="dotnet_code_challenge">
-      <HintPath>..\..\Project\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.dll</HintPath>
+      <HintPath>..\dotnet-code-challenge\bin\Debug\netcoreapp2.0\dotnet_code_challenge.dll</HintPath>
     </Reference>
   </ItemGroup>
 

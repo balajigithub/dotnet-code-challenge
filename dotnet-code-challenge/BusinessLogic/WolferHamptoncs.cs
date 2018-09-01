@@ -37,11 +37,8 @@ namespace dotnet_code_challenge
                     //output the horse and price list
                     Console.WriteLine("List of JSON");
                     Console.WriteLine("---------------");
-                    foreach (var list in sortedRaceDict)
-                    {
-                        Console.WriteLine(list.ToString());
-                    }
 
+                    Racedictionary.ToList().ForEach(x => Console.WriteLine(x.Key + "  " + x.Value));
                     Console.WriteLine("");
                     Console.WriteLine("");
                     Console.WriteLine("");

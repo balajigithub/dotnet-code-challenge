@@ -36,11 +36,10 @@ namespace dotnet_code_challenge
                 Dictionary<string, string> Racedictionary = new Dictionary<string, string>();
                 foreach (var RaceList in iListhorses)
                 {
-                    Console.WriteLine(RaceList + "  " + iListprice[i]);
                     Racedictionary.Add(RaceList.ToString(), iListprice[i].ToString());
                     i++;
                 }
-
+                Racedictionary.ToList().ForEach(x => Console.WriteLine(x.Key + "  " + x.Value));
                 return Racedictionary;
             }
             catch (Exception ex)

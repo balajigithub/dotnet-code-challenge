@@ -6,7 +6,6 @@ C:\Project\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challe
 C:\Project\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.Test.runtimeconfig.dev.json
 C:\Project\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.Test.dll
 C:\Project\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.Test.pdb
-C:\Project\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.dll
 C:\Project\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.pdb
 C:\Project\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csprojAssemblyReference.cache
 C:\Project\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csproj.CoreCompileInputs.cache

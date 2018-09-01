@@ -9,9 +9,10 @@
       "dotnet_code_challenge.Test/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.5.0",
-          "dotnet_code_challenge": "1.0.0",
+          "Newtonsoft.Json": "11.0.2",
           "xunit": "2.3.1",
-          "xunit.runner.visualstudio": "2.3.1"
+          "xunit.runner.visualstudio": "2.3.1",
+          "dotnet_code_challenge": "1.0.0.0"
         },
         "runtime": {
           "dotnet_code_challenge.Test.dll": {}
@@ -967,10 +968,7 @@
           "Microsoft.NET.Test.Sdk": "15.5.0"
         }
       },
-      "dotnet_code_challenge/1.0.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "11.0.2"
-        },
+      "dotnet_code_challenge/1.0.0.0": {
         "runtime": {
           "dotnet_code_challenge.dll": {}
         }
@@ -1501,8 +1499,8 @@
       "path": "xunit.runner.visualstudio/2.3.1",
       "hashPath": "xunit.runner.visualstudio.2.3.1.nupkg.sha512"
     },
-    "dotnet_code_challenge/1.0.0": {
-      "type": "project",
+    "dotnet_code_challenge/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

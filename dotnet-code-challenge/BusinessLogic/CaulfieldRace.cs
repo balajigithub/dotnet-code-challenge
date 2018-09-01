@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Xml.Linq;
 
 namespace dotnet_code_challenge
 {
-   public static class CaulfieldRace
+    public static class CaulfieldRace
     {
-
-        public static void GetCaulfieldRace(string path)
+        public static Dictionary<string, string> GetCaulfieldRace(string path)
         {
             try
             {
@@ -35,11 +33,15 @@ namespace dotnet_code_challenge
                 //Output the list
                 Console.WriteLine("List of XML");
                 Console.WriteLine("---------------");
+                Dictionary<string, string> Racedictionary = new Dictionary<string, string>();
                 foreach (var RaceList in iListhorses)
                 {
                     Console.WriteLine(RaceList + "  " + iListprice[i]);
+                    Racedictionary.Add(RaceList.ToString(), iListprice[i].ToString());
                     i++;
                 }
+
+                return Racedictionary;
             }
             catch (Exception ex)
             {

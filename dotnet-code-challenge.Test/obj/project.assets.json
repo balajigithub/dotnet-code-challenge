@@ -1590,20 +1590,6 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
-      },
-      "dotnet_code_challenge/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Microsoft.NETCore.App": "2.0.0",
-          "Newtonsoft.Json": "11.0.2"
-        },
-        "compile": {
-          "bin/placeholder/dotnet_code_challenge.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/dotnet_code_challenge.dll": {}
-        }
       }
     }
   },
@@ -5455,18 +5441,13 @@
         "xunit.runner.visualstudio.2.3.1.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "dotnet_code_challenge/1.0.0": {
-      "type": "project",
-      "path": "../dotnet-code-challenge/dotnet-code-challenge.csproj",
-      "msbuildProject": "../dotnet-code-challenge/dotnet-code-challenge.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NET.Test.Sdk >= 15.5.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "dotnet_code_challenge >= 1.0.0",
+      "Newtonsoft.Json >= 11.0.2",
       "xunit >= 2.3.1",
       "xunit.runner.visualstudio >= 2.3.1"
     ]
@@ -5506,11 +5487,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {
-            "C:\\projects\\dotnet-code-challenge\\dotnet-code-challenge.csproj": {
-              "projectPath": "C:\\projects\\dotnet-code-challenge\\dotnet-code-challenge.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -5530,6 +5507,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.2, )"
           },
           "xunit": {
             "target": "Package",

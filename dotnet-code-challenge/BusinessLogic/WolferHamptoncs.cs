@@ -3,13 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Xml.Linq;
 
 namespace dotnet_code_challenge
 {
     public static class WolferHamptoncs
     {
-        public static void GetWolferHamptonRace(string path)
+        public static Dictionary<string, int> GetWolferHamptonFData(string path)
         {
             try
             {
@@ -26,7 +25,7 @@ namespace dotnet_code_challenge
                     var Prices = from p in rss["RawData"]["Markets"][0]["Selections"] select (Int32)p["Price"];
 
                     int i = 0;
-                    //Get first list of horses
+                    //Get first list of horses with price and put it in a dictionary as key value pair.
                     foreach (var names in HorseNames)
                     {
                         Racedictionary.Add(names, Prices.ToList()[i]);
@@ -46,6 +45,7 @@ namespace dotnet_code_challenge
                     Console.WriteLine("");
                     Console.WriteLine("");
                     Console.WriteLine("");
+                    return Racedictionary;
                 }
             }
             catch (Exception ex)
@@ -53,7 +53,5 @@ namespace dotnet_code_challenge
                 throw ex;
             }
         }
-
-      
     }
 }

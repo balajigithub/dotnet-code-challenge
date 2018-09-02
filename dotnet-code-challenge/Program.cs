@@ -19,8 +19,6 @@ namespace dotnet_code_challenge
             }
 
             Console.ReadLine();
-
-
         }
     }
 }

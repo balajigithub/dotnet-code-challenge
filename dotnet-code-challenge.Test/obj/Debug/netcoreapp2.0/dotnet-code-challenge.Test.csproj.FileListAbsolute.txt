@@ -14,6 +14,10 @@ C:\Project\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challe
 C:\Project\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csproj.CopyComplete
 C:\Project\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet_code_challenge.Test.dll
 C:\Project\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet_code_challenge.Test.pdb
+C:\projects\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csprojResolveAssemblyReference.cache
+C:\projects\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csproj.CoreCompileInputs.cache
+C:\projects\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.AssemblyInfoInputs.cache
+C:\projects\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.AssemblyInfo.cs
 C:\projects\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\projects\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
 C:\projects\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
@@ -24,9 +28,5 @@ C:\projects\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_chall
 C:\projects\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.Test.pdb
 C:\projects\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.dll
 C:\projects\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.pdb
-C:\projects\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csprojResolveAssemblyReference.cache
-C:\projects\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csproj.CoreCompileInputs.cache
-C:\projects\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.AssemblyInfoInputs.cache
-C:\projects\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.AssemblyInfo.cs
 C:\projects\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet_code_challenge.Test.dll
 C:\projects\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet_code_challenge.Test.pdb

@@ -19,27 +19,37 @@ namespace dotnet_code_challenge
                 var prices = doc.Descendants("horses").LastOrDefault();
                 var finalprices = prices.Descendants("horse");
 
-                //Get first list of horses
-                foreach (XElement x in horses)
+                if (horses.Count > 0)
                 {
-                    iListhorses.Add((x.Attribute("name").Value));
+                    //Get first list of horses
+                    foreach (XElement x in horses)
+                    {
+                        iListhorses.Add((x.Attribute("name").Value));
+                    }
                 }
-                //Get Price for each horse
-                foreach (var z in finalprices)
+                if (finalprices != null)
                 {
-                    iListprice.Add(z.Attribute("Price").Value);
+                    //Get Price for each horse
+                    foreach (var z in finalprices)
+                    {
+                        iListprice.Add(z.Attribute("Price").Value);
+                    }
                 }
                 int i = 0;
                 //Output the list
                 Console.WriteLine("List of XML");
                 Console.WriteLine("---------------");
                 Dictionary<string, string> Racedictionary = new Dictionary<string, string>();
-                foreach (var RaceList in iListhorses)
+                if (iListhorses.Count > 0 && iListprice.Count > 0)
                 {
-                    Racedictionary.Add(RaceList.ToString(), iListprice[i].ToString());
-                    i++;
+                    foreach (var RaceList in iListhorses)
+                    {
+                        Racedictionary.Add(RaceList.ToString(), iListprice[i].ToString());
+                        i++;
+                    }
+
+                    Racedictionary.ToList().ForEach(x => Console.WriteLine(x.Key + "  " + x.Value));
                 }
-                Racedictionary.ToList().ForEach(x => Console.WriteLine(x.Key + "  " + x.Value));
                 return Racedictionary;
             }
             catch (Exception ex)

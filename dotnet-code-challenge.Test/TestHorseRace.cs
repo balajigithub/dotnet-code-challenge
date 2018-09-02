@@ -13,12 +13,12 @@ namespace dotnet_code_challenge.Test
         {
             string wolfpath = "..\\..\\..\\FeedData\\Wolferhampton_Race1.json";
 
-            Dictionary<string, int> In = new Dictionary<string, int>();
-
+            Dictionary<string, decimal> In = new Dictionary<string,decimal>();
+            In.Add("Fikhaar", 4.4m);
             In.Add("Toolatetodelegate", 10);
-            In.Add("Fikhaar", 4);
+            
 
-            Dictionary<string, int> Out = WolferHamptoncs.GetWolferHamptonFData(wolfpath);
+            Dictionary<string, decimal> Out = WolferHamptoncs.GetWolferHamptonFData(wolfpath);
             bool flag = In.All(e => Out.Contains(e));
 
             Assert.True(flag);
